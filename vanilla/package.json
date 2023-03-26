@@ -1,0 +1,13 @@
+{
+  "name": "vanilla",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "APP_ENV=local tsx src/index.ts",
+    "prod": "APP_ENV=production tsx src/index.ts",
+    "staging": "APP_ENV=staging tsx src/index.ts"
+  },
+  "devDependencies": {
+    "tsx": "3.12.6",
+    "typescript": "5.0.2"
+  }
+}
